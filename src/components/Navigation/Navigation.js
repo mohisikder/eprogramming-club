@@ -5,7 +5,7 @@ import './Navigation.css';
 
 const Navigation = () => {
    return (
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="shadow">
          <Container>
             <Navbar.Brand href="/" className="text-white">eProgrammingClub</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

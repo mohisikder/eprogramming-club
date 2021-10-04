@@ -1,8 +1,9 @@
 import React from 'react';
+import './Error.css';
 
 const Error = () => {
    return (
-      <div style={{textAlign:"center"}}>
+      <div className="bg-dark text-white vh-100 text-center error">
          <h1>404</h1>
          <h4>Page Not Found.</h4>
       </div>
