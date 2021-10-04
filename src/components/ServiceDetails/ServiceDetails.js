@@ -15,6 +15,8 @@ const ServiceDetails = () => {
       <div>
          <Navigation/>
          <Container>
+            <h2 className="mt-4 text-center">Our Services</h2>
+            <hr className="w-25 m-auto"/>
             <Row xs={1} md={4} className="g-4 mt-4">
                {
                 serviceDetails.map(serviceDetails=>(

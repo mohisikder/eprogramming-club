@@ -13,6 +13,8 @@ const Services = () => {
    return (
       <div>
          <Container>
+         <h2 className="mt-4 text-center">Our Services</h2>
+         <hr className="w-25 m-auto"/>
             <Row xs={1} md={2} className="g-4 mt-4">
                {
                   services.slice(0, 4).map(service =>(

@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="row py-4 d-flex justify-content-between">
                <div className="col-md-5">
                   <Link className="link" to="/home">
-                     <h1 className="text-danger">eProgrammingClub</h1>
+                     <h4 className="text-white">eProgrammingClub</h4>
                   </Link>
                   <p >So the best advice to learn programming in 2020 is follow the project-based learning approach. Build as many projects as you can to strengthen your problem-solving skills in programming.</p>
                </div>
