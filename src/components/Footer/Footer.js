@@ -1,19 +1,18 @@
-import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import { Container, FormControl, InputGroup } from 'react-bootstrap';
+import { Container, FormControl, InputGroup, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
    return (
-      <footer className="bg-dark text-white mt-4">
+      <footer className="bg-secondary text-white mt-4">
          <Container>
             <div className="row py-4 d-flex justify-content-between">
                <div className="col-md-5">
                   <Link className="link" to="/home">
-                     <h1>HealthClub</h1>
+                     <h1 className="text-danger">eProgrammingClub</h1>
                   </Link>
-                  <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, est. Fuga sint explicabo fugit eius voluptates commodi enim temporibus! Omnis ad voluptatem quibusdam nemo harum obcaecati totam itaque voluptatum voluptate.</p>
+                  <p >So the best advice to learn programming in 2020 is follow the project-based learning approach. Build as many projects as you can to strengthen your problem-solving skills in programming.</p>
                </div>
                <div className="col-md-2">
                   <h6>Important Link</h6>
@@ -36,16 +35,17 @@ const Footer = () => {
                   <h4>Get in Touch</h4>
                   <InputGroup className="mb-3 w-75">
                   <FormControl
-                     placeholder="Recipient's username"
+                     placeholder="Enter your Email..."
                      aria-label="Recipient's username"
                      aria-describedby="basic-addon2"
                   />
-                  <Button variant="primary" size="lg">Send</Button>
+                  <Button variant="danger" size="lg">Send</Button>
                </InputGroup>
+               <h6>Follow us</h6>
                </div>
-               <p className="text-center">Copyright &copy; Mohiuddin Sikder</p>
             </div>
          </Container>
+         <p className="text-center bg-dark mt-3 mb-0 pb-0 height">Copyright &copy; Mohiuddin Sikder - 2021</p>
       </footer>
    );
 };

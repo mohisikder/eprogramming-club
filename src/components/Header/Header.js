@@ -11,10 +11,10 @@ const Header = () => {
             <Container>
                <div className="header-overlay">
                   <div className="row">
-                     <div className="col-md-12  p-4 text-center m-auto w-50 header-text">
-                        <h1>take action now</h1>
-                        <h6>get ready and start</h6>
-                        <Button variant="primary" size="lg" className="mt-2 lg">Join Now</Button>
+                     <div className="col-md-12  p-4 text-center m-auto w-75 header-text">
+                        <h1>Code is like humor. When you have to explain it, it’s bad.</h1>
+                        <p>So the best advice to learn programming in 2020 is follow the project-based learning approach. Build as many projects as you can to strengthen your problem-solving skills in programming. Remember that programming is not about learning a language (Python, C++, Java, etc.), it is the ability to solve the problems</p>
+                        <Button variant="danger" size="lg" className="mt-2 lg">Join Now</Button>
                      </div>
                   </div>
                </div>

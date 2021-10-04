@@ -1,5 +1,5 @@
 .bg-img{
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.3)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK4LTvkuVxux3s12yGupWXzXYxm0Uay2FD5w&usqp=CAU');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1531482615713-2afd69097998?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGNvZGluZyUyMHdvbWVufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
    background-size: cover;
    background-position: center center;
    background-repeat: no-repeat;
