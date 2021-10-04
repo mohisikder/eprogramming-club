@@ -1,7 +1,7 @@
-Markup : # Project title eProgrammingClub #
-[demo live] (https://eprogrammingclub.netlify.app/)
+# Project title eProgrammingClub
+[Demo live](https://eprogrammingclub.netlify.app/)
 
-Markup : ## Project description ##
+## Project description
 1. This project is programming language learning site.
 2. You are learn any programming language in here.
 3. 14 Great Ways to Teach Yourself to Code.
@@ -9,7 +9,7 @@ Markup : ## Project description ##
 5. Choose the right programming language.
 6. Try out some online courses.
 
-Markup : # Technology uses #
+## Technology uses
 1. Reactjs
 2. JavaScript
 3. React-Bootstrap
