@@ -45,7 +45,7 @@ const Footer = () => {
                </Col>
             </Row>
          </Container>
-         <p className="text-center bg-dark mt-3 mb-0 pb-0 height">Copyright &copy; Mohiuddin Sikder - 2021</p>
+         <p className="text-center bg-dark mt-3 mb-0 pb-0 height">Copyright &copy; eProgrammingClub | by Mohiuddin Sikder - 2021</p>
       </footer>
    );
 };
