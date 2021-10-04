@@ -28,7 +28,7 @@ const Services = () => {
                            </Card.Text>
                            <small>Instructor by {service.trainerName}</small>
                            <h4>$ {service.price}</h4>
-                           <Button variant="danger">Add To Cart</Button>
+                           <Button variant="danger">Enroll Now</Button>
                         </Card.Body>
                         </Card>
                      </Col>

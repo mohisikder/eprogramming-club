@@ -30,7 +30,7 @@ const ServiceDetails = () => {
                         </Card.Text>
                         <small>Instructor by {serviceDetails.trainerName}</small>
                         <h4>$ {serviceDetails.price}</h4>
-                        <Button variant="danger" className="mt-2">Buy Now</Button>
+                        <Button variant="danger" className="mt-2">Enroll Now</Button>
                      </Card.Body>
                      </Card>
                   </Col>
